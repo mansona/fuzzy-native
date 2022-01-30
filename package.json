@@ -24,6 +24,7 @@
     "nan": "^2.14.2"
   },
   "devDependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.8",
     "jasmine-node": "^1.14.5",
     "rimraf": "^2.5.2"
   }

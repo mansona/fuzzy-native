@@ -39,4 +39,4 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: npm
       - run: npm ci
-      - run: node-pre-gyp package testpackage
+      - run: npx node-pre-gyp package testpackage
